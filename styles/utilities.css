@@ -1,0 +1,51 @@
+.container {
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.carousel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-secondary-active {
+    color: var(--text-secondary);
+}
+
+.lightgreen-bg {
+    background-color: #7BC200;
+}
+
+.blue-bg {
+    background-color: #0787D4;
+}
+
+.red-bg {
+    background-color: #EF584D;
+}
+
+.dark-bg {
+    background-color: #3A3E4A;
+}
+
+.gray-bg {
+    background-color: #686D80;
+}
+
+.pinkish-bg {
+    background-color: #E36968;
+}
+
+.lightblue-bg {
+    background-color: #63D8FF;
+}
+
+.purple-bg {
+    background-color: #4E459A;
+}

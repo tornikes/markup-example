@@ -1,0 +1,12 @@
+:root {
+    --showcase-bg: #2C3E50;
+    --text-primary: #FFF;
+    --text-secondary: #1ABC9C;
+    --btn-primary: #1D2C3B;
+    --primary-gray: #A1B1BC;
+    --featured-bg: #ECF0F1;
+}
+
+button {
+    cursor: pointer;
+}

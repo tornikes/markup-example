@@ -1,0 +1,133 @@
+.component-1 {
+    border-color: white;
+    border-bottom-color: var(--showcase-bg);
+    border-style: solid;
+    border-width: 5px 0 5px 0;
+    padding-bottom: 26px;
+    background-color: var(--showcase-bg);
+}
+
+.component-1 .container {
+    display: flex;
+}
+
+.component-1 .logo {
+    margin-top: 34px;
+    display: flex;
+    align-items: start;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+.logo-text {
+    margin-top: -10px;
+}
+
+.component-1 p {
+    margin-top: 0;
+    font-size: 23.8px;
+    line-height: 30.71px;
+}
+
+.component-1 h3 {
+    font-size: 35.69px;
+    line-height: 30.71px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+}
+
+.navbar {
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'Lato';
+    font-weight: 700;
+    width: 100%;
+    padding: 0 0 0 120px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: white;
+}
+
+@media (max-width: 1300px) {
+    .navbar {
+        padding-left: 50px;
+        font-size: 14px;
+    }
+    .navbar ul li a {
+        font-size: 13px;
+    }
+    .navbar ul li i {
+        margin-left: 1px !important;
+    }
+}
+.navbar ul {
+    display: flex;
+    width: 100%;
+    margin-top: -5px;
+    justify-content: space-between;
+}
+
+.navbar ul li, .logo, .rounded div {
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    height: 100%;
+    padding-top: 50px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 5px;
+}
+
+.navbar ul li a {
+    color: inherit;
+}
+
+.navbar ul li i {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    border-color: var(--text-secondary);
+}
+.navbar ul li:hover {
+    color: var(--text-secondary);
+}
+
+.rounded {
+    margin-top: 45px;
+    justify-self: flex-end;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.rounded div {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rounded div p {
+    font-size: 14px;
+}
+
+.cart {
+    background-color: var(--text-secondary);
+}
+
+.magnifying {
+    border: 1px solid white;
+}

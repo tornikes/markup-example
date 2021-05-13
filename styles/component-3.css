@@ -1,0 +1,147 @@
+.component-3 {
+    border-top: 1px solid transparent;
+    min-height: 784px;
+    padding-top: 40px;
+    background-color: var(--featured-bg);
+}
+
+.component-3 .container {
+    position: relative;
+}
+
+.featured-heading {
+    font-size: 36px;
+    line-height: 33px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #34495E;
+}
+.featured-heading strong {
+    font-weight: 900;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrow-sm {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #CDD9E1;
+    color: var(--primary-gray);
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.arrow-sm + .arrow-sm {
+    margin-left: 15px;
+}
+
+.arrow-sm:hover {
+    background-color: var(--showcase-bg);
+    color: white;
+    border: none;
+}
+
+.cards {
+    display: grid;
+    gap: 27px;
+    row-gap: 29px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    margin-top: 45px;
+}
+
+.card {
+    cursor: pointer;
+    width: 270px;
+    height: 564px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 370px;
+}
+
+.card-content {
+    padding: 12px 20px;
+    border: 1px solid #E6E6E6;
+}
+
+.card-content h3 {
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: bold;
+    color: var(--showcase-bg);
+}
+
+.stars {
+    display: flex;
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 15px;
+    color: #A1B1BC;
+}
+.checked {
+    color: var(--text-secondary);
+}
+
+.price-tag {
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 900;
+    line-height: 33px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.card-interact {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E6E6E6;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-interact button {
+    width: 105px;
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    background-color: #A1B1BC;
+    font-size: 13px;
+    line-height: 33px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card:hover .card-content, .card:hover .card-interact {
+    background-color: var(--showcase-bg);
+    color: white;
+}
+
+.card:hover .card-content h3 {
+    color: white;
+}
+
+.card:hover .card-interact button {
+    background-color: var(--text-secondary);
+}
+.card:hover .card-interact button.details {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}

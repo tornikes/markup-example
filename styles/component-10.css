@@ -1,0 +1,37 @@
+.component-10 {
+    background-color: #34495E;
+    min-height: 300px;
+}
+
+.component-10 .container {
+    max-width: 1080px;
+    padding: 0;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat {
+    width: 180px;
+    height: 112px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: right;
+}
+
+.stat-number {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 300;
+}
+
+.stat-item {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.stat:nth-of-type(even) {
+    transform: translateX(-10px);
+}

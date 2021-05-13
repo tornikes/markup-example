@@ -1,0 +1,60 @@
+.component-4 {
+    margin-top: 100px;
+}
+.component-4 .container {
+    display: flex;
+    padding: 22px 40px 25px 35px;
+    justify-content: space-between;
+    border: 1px solid #DFE8EA;
+    border-radius: 8px;
+}
+
+.cart-icon {
+    flex-basis: 90px;
+    height: 90px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: var(--text-secondary);
+    color: white;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 46px;
+}
+
+
+.fox-text h2 {
+    font-family: 'Lato';
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.fox-text p {
+    margin-top: 5px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.01;
+    color: #A1B1BC;
+}
+
+.cta {
+    width: 300px;
+    height: 65px;
+    margin-top: 17px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #34495E;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}

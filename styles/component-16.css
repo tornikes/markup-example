@@ -1,0 +1,35 @@
+.component-16 {
+    border-top: 2px solid #272D3D;
+    min-height: 80px;
+    background-color: #1A1C27;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #A1B1BC;
+}
+
+.component-16 .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 29px;
+}
+
+.footer-links a {
+    color: #A1B1BC;
+}
+
+.footer-links a.active {
+    color: var(--text-secondary);
+}
+
+.greenish {
+    color: var(--text-secondary);
+}
+.greenish strong {
+    font-weight: 900;
+}

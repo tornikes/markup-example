@@ -1,0 +1,49 @@
+.component-12 {
+    border-top: none;
+    min-height: 360px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 75px 50px 60px 72px;
+}
+
+.info h2 {
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.35mm;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.info:nth-of-type(2) {
+    padding-left: 80px;
+}
+.info:nth-of-type(3) {
+    padding-left: 85px;
+}
+
+.info button {
+    display: block;
+    height: 50px;
+    width: 170px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 20px;
+    letter-spacing: 0px;
+}

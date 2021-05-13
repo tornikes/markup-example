@@ -1,0 +1,138 @@
+.component-7 {
+    border: 1px solid transparent;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 98px;
+    background-color: #F9FBFA;
+}
+
+.component-7 .container {
+    position: relative;
+    padding-top: 55px;
+}
+
+.news-grid {
+    margin-top: 42px;
+    min-height: 420px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.news-item {
+    display: grid;
+    grid-template-columns: 20fr 130fr 134fr;
+    grid-template-rows: repeat(3, 1fr) 1.75fr;
+    row-gap: 1px;
+    border: 1px solid #E7EBED;
+    cursor: pointer;
+}
+
+.row-4 {
+    grid-row: span 5;
+}
+
+.has-icon {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.img-icon {
+    background-color: var(--text-secondary);
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 12px;
+}
+
+.has-icon span {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.grid-placeholder {
+    background-color: #cccccc;
+    position: relative;
+}
+
+.news-content {
+    padding: 15px 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.news-content h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: .15px;
+    margin-bottom: 2px;
+    color: #2C3E50;
+}
+
+.news-content h5 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #34495E;
+}
+
+.news-content p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #A1B1BC;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;    
+    border-right:8px solid white;
+    position: absolute;
+    top: 20px;
+    right: 0; 
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    font-size: 30px;
+    line-height: 33px;
+}
+.icons > i + i {
+    margin-left: 15px;
+}
+
+
+.news-item:hover .grid-placeholder {
+    background-color: var(--text-secondary);
+    padding-left: 1px;
+}
+.news-item:hover .news-content {
+    background-color: #34495E;
+}
+.news-item:hover .news-content h3,
+.news-item:hover .news-content h5 {
+    color: white;
+}
+.news-item:hover .triangle {
+    border-right-color: #34495E;
+}
+.news-item:hover .icons {
+    color: white;
+}
+.news-item:hover .img-icon {
+    background-color: #3A3E4A;
+}

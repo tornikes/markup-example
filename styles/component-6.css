@@ -1,0 +1,74 @@
+.component-6 {
+    border: 1px solid transparent;
+    margin-top: 55px;
+    padding-top: 40px;
+}
+
+.component-6 .container {
+    position: relative;
+}
+
+.component-6 .cards {
+    margin-top: 43px;
+}
+
+.component-6 .card .image-placeholder {
+    position: relative;
+}
+
+.image-overlay {
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    height: 50px;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 33px;
+    color: white;
+}
+
+.image-overlay i {
+    font-size: 20px;
+}
+
+.featured .image-overlay {
+    background-color: #E46960;
+}
+
+.best-seller .image-overlay {
+    background-color: #21C2F8;
+}
+
+.sale-tag {
+    display: inline-block;
+    background-color: #21C2F8;
+    color: white;
+    padding: 1.5px 8px;    
+    border-radius: 5px;
+}
+
+.discount {
+    
+    background-color: transparent;
+    color: transparent;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 24px;
+    padding: 0 8px 0 0;
+    border-radius: 5px;
+}
+
+.discount:hover {
+    background-color: #2C3E50;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .cards-r2 {
+    margin-top: 28px;
+}

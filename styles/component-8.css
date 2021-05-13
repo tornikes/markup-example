@@ -1,0 +1,100 @@
+.component-8 {
+    min-height: 673px;
+    background-color: #000;
+    padding-top: 100px;
+    position: relative;
+}
+
+.outer {
+    max-width: 1520px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.laptops-content {
+    margin-top: 0px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.laptops-content h1 {
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.laptops-content p {
+    width: 32%;
+    max-width: 630px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.laptops-content button {
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.01px;
+}
+
+.laptops-content .blue-button {
+    background-color: #21C2F8;
+    border-color: #21C2F8;
+}
+
+.laptop-buttons {
+    margin-bottom: 77px;
+}
+
+.laptops-content button + button {
+    margin-left: 8px;
+}
+
+.laptops-content strong {
+    font-weight: 900;
+}
+
+.laptops {
+    width: 1184px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.l-arrow-l, .l-arrow-r {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 44.3%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    line-height: 40px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.l-arrow-l:hover, .l-arrow-r:hover {
+    background-color: #1A1C27;
+    border-color: #1A1C27;
+}
+
+.l-arrow-l {
+    left: 2%;
+}
+.l-arrow-r {
+    right: -2%;
+}

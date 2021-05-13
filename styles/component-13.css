@@ -1,0 +1,52 @@
+.component-13 {
+    padding-top: 1px;
+}
+
+.component-13 > .container:first-of-type {
+    min-height: 146px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sponsor + .sponsor {
+    margin-left: 5px;
+}
+
+.quote-background {
+    background-color: var(--text-secondary);
+}
+
+.quote-background i {
+    font-size: 10px;
+}
+
+.component-13 .quote-background .container {
+    padding: 35px 25px 43px 25px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.component-13 .quote-background .container p {
+    max-width: 1088px;
+    letter-spacing: 0.075px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 14px solid var(--text-secondary);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
